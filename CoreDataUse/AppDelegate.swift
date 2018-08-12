@@ -45,6 +45,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // MARK: - Core Data stack
+    
+    //CoreData를 사용할 수 있도록 해주는 저장소에 대한 포인터
+    //lazy는 지연 생성 - 처음 시작할 때는 인스턴스를 생성하지 않고 있다가
+    //처음 사용을 할 때 인스턴스를 생성
 
     lazy var persistentContainer: NSPersistentContainer = {
         /*

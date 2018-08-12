@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6703784D211E701700518D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703784C211E701700518D6A /* AppDelegate.swift */; };
-		6703784F211E701700518D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703784E211E701700518D6A /* ViewController.swift */; };
 		67037852211E701700518D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67037850211E701700518D6A /* Main.storyboard */; };
 		67037855211E701700518D6A /* CoreDataUse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67037853211E701700518D6A /* CoreDataUse.xcdatamodeld */; };
 		67037857211E701900518D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67037856211E701900518D6A /* Assets.xcassets */; };
 		6703785A211E701900518D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67037858211E701900518D6A /* LaunchScreen.storyboard */; };
+		67037862211E749600518D6A /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67037861211E749600518D6A /* ListVC.swift */; };
+		67037864211EAD3000518D6A /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67037863211EAD3000518D6A /* LogVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67037849211E701700518D6A /* CoreDataUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6703784C211E701700518D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6703784E211E701700518D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67037851211E701700518D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67037854211E701700518D6A /* CoreDataUse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataUse.xcdatamodel; sourceTree = "<group>"; };
 		67037856211E701900518D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67037859211E701900518D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6703785B211E701900518D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67037861211E749600518D6A /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		67037863211EAD3000518D6A /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				6703784C211E701700518D6A /* AppDelegate.swift */,
-				6703784E211E701700518D6A /* ViewController.swift */,
 				67037850211E701700518D6A /* Main.storyboard */,
 				67037856211E701900518D6A /* Assets.xcassets */,
 				67037858211E701900518D6A /* LaunchScreen.storyboard */,
 				6703785B211E701900518D6A /* Info.plist */,
 				67037853211E701700518D6A /* CoreDataUse.xcdatamodeld */,
+				67037861211E749600518D6A /* ListVC.swift */,
+				67037863211EAD3000518D6A /* LogVC.swift */,
 			);
 			path = CoreDataUse;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6703784F211E701700518D6A /* ViewController.swift in Sources */,
+				67037862211E749600518D6A /* ListVC.swift in Sources */,
+				67037864211EAD3000518D6A /* LogVC.swift in Sources */,
 				67037855211E701700518D6A /* CoreDataUse.xcdatamodeld in Sources */,
 				6703784D211E701700518D6A /* AppDelegate.swift in Sources */,
 			);
